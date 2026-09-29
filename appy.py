@@ -4,7 +4,7 @@ from PIL import Image
 
 # Configuración de la página en modo ancho para aprovechar mejor las columnas
 st.set_page_config(layout="wide")
-st.title("Laboratorios y Prácticas de Inteligencia Artificial")
+st.title("Laboratorio Edwards Mosquera")
 
 with st.sidebar:
     st.subheader("Acerca de las Prácticas")
@@ -25,67 +25,67 @@ practicas = [
         "img": "img1",
         "titulo": "¿Qué fruta es más parecida?",
         "desc": "**Similaridad Vectorial mediante Distancia Euclídea Directa.** Esta práctica enseña a medir la semejanza entre objetos del mundo real transformando sus características (peso, diámetro y dulzor) en vectores dentro de un espacio 3D.",
-        "url": "https://pruebaclase2-uyhmudfavyfszs4kbrvsgi.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img2",
         "titulo": "Descenso de Gradiente Interactivo",
         "desc": "Una herramienta visual para comprender el algoritmo de optimización central del aprendizaje automático. Muestra cómo los parámetros afectan la convergencia hacia el mínimo de una función de costo en 3D.",
-        "url": "https://pruebaclase3-mhtdeyvhuuaqphi6poqnql.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img3",
         "titulo": "Detector de Anomalías: Lógica + Big-O",
         "desc": "Un benchmark visual que compara dos enfoques para detectar anomalías (umbrales lógicos vs. vectorización con NumPy), destacando la importancia de la complejidad computacional (Big-O).",
-        "url": "https://pruebaclase4-qemcmdey4kqfwyudxrmyaz.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img4",
         "titulo": "Estructura y Preparación de Datos",
         "desc": "**Módulo 5 (IoT):** Una interfaz para configurar y explorar un dataset sintético de sensores IoT enfocado en lidiar con valores faltantes y valores atípicos (outliers).",
-        "url": "https://pruebaclase5-txf23tvysqr5evhsjpqrsm.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img5",
         "titulo": "Nivel de Ríos y Quebradas",
         "desc": "**CORNARE:** Un panel de control (dashboard) para el monitoreo en tiempo real de datos hidrológicos y ubicación geográfica para la gestión de recursos naturales.",
-        "url": "https://pruebaclase6-dnd8mcyzhgqsvtfrhmr7wr.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img6",
         "titulo": "Regresión: Conceptos Clave",
         "desc": "**(Vivienda):** Herramienta interactiva para ajustar modelos de regresión lineal (simple y múltiple) sobre datos reales de vivienda en California, explorando el error (MSE).",
-        "url": "https://pruebaclase7-lmnmxgmqg4qjeph5djzmrb.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img7",
         "titulo": "Series de Tiempo - Sensor IoT",
         "desc": "Aplicación interactiva para descomponer y analizar series temporales simuladas (temperatura), ajustando componentes como tendencia, estacionalidad y ruido.",
-        "url": "https://pruebaclase8-5ttjmlwuehhzwbvfd3ws35.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img8",
         "titulo": "Calidad del Aire - CORNARE",
         "desc": "**(MARCO):** Interfaz que permite cargar modelos predictivos (`.pkl`) para realizar pronósticos de calidad del aire (PM2.5 y PM10) en una región específica.",
-        "url": "https://pruebaclase9-hb8hjs6vhfxrcc4qpx8lt5.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img9",
         "titulo": "Predictor de Sensación Térmica",
         "desc": "Aplicación que conecta con una base de datos en tiempo real (InfluxDB) para obtener datos IoT y entrenar un modelo de regresión lineal que predice la sensación térmica.",
-        "url": "https://pruebaclase10-ewjudmlherrlkqcbqftasq.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img10",
         "titulo": "¿Lloverá mañana?",
         "desc": "**Regresión Logística Interactiva:** Herramienta para explorar clasificación binaria, visualizando la función sigmoide y el umbral de clasificación para predecir lluvia.",
-        "url": "https://pruebaclase12-etebhnappweghuw8dtbnafs.streamlit.app/"
+        "url": ""
     },
     {
         "img": "img11",
         "titulo": "Explora KNN en Suelos",
         "desc": "**(AGROSAVIA):** Caso de estudio avanzado que aplica el algoritmo K-NN a datos abiertos reales para clasificar la fertilidad del suelo (baja, media, alta).",
-        "url": "https://pruebaclase13-fhkzvagse89jktjnxhvfme.streamlit.app/"
+        "url": ""
     }
 ]
 
